@@ -1,3 +1,6 @@
+![logo](https://github.com/rixiobarrios/blox-digital-assessment/assets/55994508/bcfe75e7-dc63-4b1a-b270-fb1988011218)
+
+
 **Blox Digital Assessment**
 
 For each of the four questions below, please provide your JavaScript function as well as a brief note about why you did it the way you did.
