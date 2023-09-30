@@ -9,10 +9,8 @@ function addWorld() {
         let element = document.getElementsByClassName('hello');
         // Targeting element
         console.log(element);
-        // Manipulating the DOM here
-        let text = document.createTextNode(' world');
-        // Calling the "appendChild" method only on valid DOM element
-        element[0].appendChild(text);
+        // Manipulating the DOM through style sheet through the class list here
+        element[0].classList.add('style');
     } else {
         console.log('In Node.js');
     }
