@@ -9,10 +9,11 @@ For each of the four questions below, please provide your JavaScript function as
 - Answer in file ```addWorld.js```
 
 2. Write a javascript function that will find a specific anchor tag and replace the text on it and add some classes. The id of the anchor is “myAnchor” and the text will be “My fancy link” and the classes to add are “btn btn-primary”.
-- Answer in file ```addClasses.js```
+- Answer in file ```replaceLinkText.js```
 
 3. Write a javascript function that will hide an element after an event is fired. The event is “subscription-granted” and the element id is “hider”.
+- Answer in file ```hideElement.js```
 
 4. Write a javascript function that will have the page redirect to “/news” if the url contains a segment that contains only numbers.
 Ex: domain.com/news/78772/myheadline.html or
-      domain.com/news/872/mysecondheadline.html# blox-digital-assessment
+      domain.com/news/872/mysecondheadline.html

@@ -8,12 +8,12 @@ function replaceLinkText() {
         console.log('In Browser');
         // Find "myAnchor" tag
         let link = document.getElementById('myAnchor');
-        // Print link
+        // Log link
         console.log(link);
         // Manipulating the DOM through style sheet and adding the adding classes list here
         link.classList.add('btn');
         link.classList.add('btn-primary');
-        // Print link with new classes
+        // Log link with new classes
         console.log(link);
     } else {
         console.log('In Node.js');
