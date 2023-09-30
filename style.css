@@ -1,3 +1,12 @@
 .style:after {
     content: " world";
 }
+
+a#myAnchor {
+  visibility: hidden;
+}
+
+a#myAnchor:after {
+  content: "My fancy link";
+  visibility: visible;
+}

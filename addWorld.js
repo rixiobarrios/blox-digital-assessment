@@ -6,10 +6,11 @@ function addWorld() {
     // Fixing "ReferenceError: document is not defined"
     if (typeof document !== 'undefined') {
         console.log('In Browser');
+        // Find class "hello" divs
         let element = document.getElementsByClassName('hello');
-        // Targeting element
+        // Print element
         console.log(element);
-        // Manipulating the DOM through style sheet through the class list here
+        // Manipulating the DOM through style sheet and the class list here. Picking first and only element through bracket notation and adding class
         element[0].classList.add('style');
     } else {
         console.log('In Node.js');
