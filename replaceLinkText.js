@@ -10,10 +10,10 @@ function replaceLinkText() {
         let link = document.getElementById('myAnchor');
         // Log link
         console.log(link);
-        // Manipulating the DOM through style sheet and adding the adding classes list here
+        //Added properties to css file to replace text and adding the classes list here
         link.classList.add('btn');
         link.classList.add('btn-primary');
-        // Log link with new classes
+        // Log link with new text and classes
         console.log(link);
     } else {
         console.log('In Node.js');
@@ -21,3 +21,17 @@ function replaceLinkText() {
 }
 
 replaceLinkText();
+
+// function replaceLinkText() {
+//     // Find "myAnchor" tag
+//     let link = document.getElementById('myAnchor');
+//     // Log link
+//     console.log(link);
+//     //Added properties to css file to replace text and adding the classes list here
+//     link.classList.add('btn');
+//     link.classList.add('btn-primary');
+//     // Log link with new text and classes
+//     console.log(link);
+// }
+
+// replaceLinkText();

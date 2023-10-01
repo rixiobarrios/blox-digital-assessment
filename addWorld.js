@@ -10,7 +10,7 @@ function addWorld() {
         let element = document.getElementsByClassName('hello');
         // Log element
         console.log(element);
-        // Manipulating the DOM through style sheet and the class list here. Picking first and only element through bracket notation and adding class
+        //Picking first element through bracket notation and adding class to add "world" text on css file
         element[0].classList.add('style');
         // Log new class
         console.log(element);
@@ -20,3 +20,16 @@ function addWorld() {
 }
 
 addWorld();
+
+// function addWorld() {
+//     // Find class "hello" div
+//     let element = document.getElementsByClassName('hello');
+//     // Log element
+//     console.log(element);
+//     //Picking first element through bracket notation and adding class to add "world" text through css file
+//     element[0].classList.add('style');
+//     // Log new class
+//     console.log(element);
+// }
+
+// addWorld();

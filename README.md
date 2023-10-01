@@ -1,4 +1,4 @@
-![63dd520246ab8](https://github.com/rixiobarrios/blox-digital-assessment/assets/55994508/8d0d5da0-503a-431c-981e-2536d8624e7c)
+![logo](https://github.com/rixiobarrios/blox-digital-assessment/assets/55994508/c7e46d89-6f5a-4c12-90f7-d5f60ac06663)
 
 
 **Blox Digital Assessment**
@@ -17,3 +17,4 @@ For each of the four questions below, please provide your JavaScript function as
 4. Write a javascript function that will have the page redirect to “/news” if the url contains a segment that contains only numbers.
 Ex: domain.com/news/78772/myheadline.html or
       domain.com/news/872/mysecondheadline.html
+- Answer in file ```pageRedirect.js```      
