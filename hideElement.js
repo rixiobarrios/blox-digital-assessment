@@ -1,5 +1,7 @@
 // 3. Write a javascript function that will hide an element after an event is fired. The event is "subscription-granted" and the element id is "hider".
 
+// Cannot use document object on server-side platform like Node.js because Node.js does not have a global "window" object. However, if the “window” global is defined, we are on the browser and can use the “document” variable.
+
 function hideElement() {
     // Fixing "ReferenceError: document is not defined"
     if (typeof document !== 'undefined') {

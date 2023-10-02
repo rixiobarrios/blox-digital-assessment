@@ -2,7 +2,7 @@
 // Ex: domain.com/news/78772/myheadline.html or
 //       domain.com/news/872/mysecondheadline.html
 
-// Not using current url but instead examples given
+// Not using current url but instead examples given to test function
 let url_1 = 'domain.com/news/78772/myheadline.html';
 let url_2 = 'domain.com/news/872/mysecondheadline.html';
 let url_3 = 'domain.com/news/mysecondheadline.html';
@@ -29,6 +29,7 @@ console.log(pageRedirect(url_1));
 console.log(pageRedirect(url_2));
 console.log(pageRedirect(url_3));
 
+// // Solution using current url in browser
 // function pageRedirect() {
 //     // Get current url
 //     let url = window.location.href;

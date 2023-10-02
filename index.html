@@ -3,13 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Linked style sheet before all elements are loded -->
     <link rel="stylesheet" href="/style.css">
     <title>Document</title>
 </head>
 <body>
+    <!-- Created div under "hello" class -->
     <div class="hello">hello</div><br>
+    <!-- Created anchor tag under "myAnchor" id -->
     <a id="myAnchor" target="_blank" 
    href="https://www.bloxdigital.com/">Blox Digital</a><br>
+    <!-- Created element under "hider" id that will hide after an event is fired -->
    <button id="hider" onclick="hideElement()">Subscribe</button><br>
     <div id="show" style="display: none;">Subscription Granted!</div>
     <!-- placing the JS script tag at the bottom of the body, after the DOM elements have been declared -->
