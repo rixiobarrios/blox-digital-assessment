@@ -1,3 +1,4 @@
+/* Text to add to "hello" div */
 .style:after {
     content: " world";
 }
@@ -5,7 +6,7 @@
 a#myAnchor {
   visibility: hidden;
 }
-
+/* Text to replace on link under "myAnchor" id */
 a#myAnchor:after {
   content: "My fancy link";
   visibility: visible;
